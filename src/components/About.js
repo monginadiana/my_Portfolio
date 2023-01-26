@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import resume from "../assets/mongina_diana.pdf";
 export default function About() {
   return (
     <>
@@ -15,7 +15,7 @@ export default function About() {
                 <h1 className="arrow">
                   About Diana
                 </h1>
-                <p>
+                <p className="#paragraph">
                   Experienced software engineer with 2+ years of experience and
                   a passion for developing innovative programs that expedite the
                   efficiency and effectiveness of organizational success.
@@ -26,8 +26,8 @@ export default function About() {
                   changes. Confident communicator, strategic thinker, and
                   innovative creator.
                 </p>
-                <a href="https://drive.google.com/drive/u/0/folders/1KVmDgp983uO9qIT8SJdSLOGRX5q3p3sn" className="btn btn-outline-light mt-3" download="https://drive.google.com/drive/u/0/folders/1KVmDgp983uO9qIT8SJdSLOGRX5q3p3sn">
-                  Resume
+                <a href={resume} className="btn btn-outline-light mt-3" download="mongina_diana.pdf">
+                  <button>Download Resume</button>
                 </a>
               </div>
               <div className="col-1 col-md-offset-2 wp1"></div>

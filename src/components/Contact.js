@@ -51,7 +51,7 @@ export default function Contact(){
                 <div className="adress">
                     <div className="dark-box box-hover mt-2">
                     <h2><i className="bx bx-paper-plane"></i><span className="text-muted">Email</span></h2>
-                    <p><a href="index.html#">dianahmongina2@gmail.com</a></p>
+                    <p><a style={{color:"#000000"}} href="index.html#">dianahmongina2@gmail.com</a></p>
                     </div>
                 </div>
                 </div>
@@ -89,7 +89,7 @@ export default function Contact(){
                             <div className="form-group mt-3">
                                 <textarea className="form-control"rows="5" name="message"  placeholder="Message" required></textarea>
                             </div>
-                            <button type="submit" className=" email btn btn-outline-primary mt-3">Send Message</button>
+                            <button type="submit" className=" email btn btn-outline-secondary mt-3">Send Message</button>
                         </form>
                     }
         

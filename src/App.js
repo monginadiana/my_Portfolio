@@ -7,7 +7,6 @@ import Contact from './components/Contact';
 import { useEffect, useState } from "react";
 import Dev from './components/Dev';
 import "aos/dist/aos.css";
-import Resume from './components/Resume';
 
 function App() {
   const [projects, setProjects] = useState([])
@@ -27,7 +26,6 @@ function App() {
       <Route exact path='/' element={<Hero />} />
       <Route exact path='/about' element={<About />} />
       <Route exact path='/contact' element={<Contact />} />
-      <Route exact path='/resume' element={<Resume />} />
       <Route exact path='/web-applications' element={<Dev projects={projects} />} />
       </Routes>
      

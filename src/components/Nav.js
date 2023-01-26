@@ -22,7 +22,7 @@ export default function Nav() {
                 <ul>
                     <li><a onClick={showHomePage} className="nav-link scrollto"><span>HOME</span></a></li>
                     <li><NavLink to="/about" className="nav-link scrollto"><span>ABOUT</span></NavLink></li>
-                    <li><NavLink to="/resume" className="nav-link scrollto"><span>RESUME</span></NavLink></li>
+                    
 
                     <li><NavLink to="/web-applications" className="nav-link scrollto"> <span>PROJECTS</span></NavLink></li>
                     <li><NavLink to="/contact" className="nav-link scrollto"><span>CONTACT</span></NavLink></li>
