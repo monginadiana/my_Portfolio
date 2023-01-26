@@ -20,12 +20,12 @@ export default function Nav() {
         <header id="header" className={listView ? "d-flex flex-row justify-content-center header-show" : "d-flex flex-row justify-content-center"}>
             <nav id="navbar" className="navbar nav-menu">
                 <ul>
-                    <li><a onClick={showHomePage} className="nav-link scrollto"><i className="bx bx-home"></i> <span>Home</span></a></li>
-                    <li><NavLink to="/about" className="nav-link scrollto"><i className="bx bx-user"></i> <span>About</span></NavLink></li>
-                    <li><NavLink to="/resume" className="nav-link scrollto"><i className="bx bx-file-blank"></i> <span>Resume</span></NavLink></li>
+                    <li><a onClick={showHomePage} className="nav-link scrollto"><span>HOME</span></a></li>
+                    <li><NavLink to="/about" className="nav-link scrollto"><span>ABOUT</span></NavLink></li>
+                    <li><NavLink to="/resume" className="nav-link scrollto"><span>RESUME</span></NavLink></li>
 
-                    <li><NavLink to="/web-applications" className="nav-link scrollto"><i className="bx bx-code"></i> <span>Web Development</span></NavLink></li>
-                    <li><NavLink to="/contact" className="nav-link scrollto"><i className="bx bx-envelope"></i> <span>Contact</span></NavLink></li>
+                    <li><NavLink to="/web-applications" className="nav-link scrollto"> <span>PROJECTS</span></NavLink></li>
+                    <li><NavLink to="/contact" className="nav-link scrollto"><span>CONTACT</span></NavLink></li>
                 </ul>
             </nav>
         </header>

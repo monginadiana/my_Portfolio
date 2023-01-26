@@ -16,7 +16,7 @@ export default function Hero(){
         AOS.refresh();
     
         const typed = document.querySelector('.typed')
-        let typed_strings = "Software Engineer, Cloud Developer, Technical Instructor, Technical Writer, Freelancer"
+        let typed_strings = "Software Engineer, Technical Mentor, Technical Writer, Freelancer, Environmentalist, Mental Health Activist"
         typed_strings = typed_strings.split(',')
         new Typed('.typed', {
           strings: typed_strings,
@@ -29,24 +29,22 @@ export default function Hero(){
     
     return(
         <>
-        <section id="hero" className="d-flex flex-column justify-content-center">
+        <div className="hero">
+        <section id="hero" >
             <div className="container" data-aos="fade-up" data-aos-delay="700">
-            <h1 className="hello">Hello, I'm</h1>
-                <h1>Abzed Mohammed</h1>
+            <h1 className="hello">Hi, I'm</h1>
+                <h1>Diana Mongina</h1>
                 <p>a <span className="typed">
                 
                 </span></p>
                 <div className="social-links">
-                    <a target="_blank" rel="noreferrer" href="https://twitter.com/AbzedMohammed" className="twitter"><i className="bx bxl-twitter"></i></a>
-                    <a target="_blank" rel="noreferrer" href="https://facebook.com/abzed.tetz" className="facebook"><i className="bx bxl-facebook"></i></a>
-                    <a target="_blank" rel="noreferrer" href="https://github.com/abzedmohammed" className="github"><i className="bx bxl-github"></i></a>
-                    <a target="_blank" rel="noreferrer" href="https://wa.me/254759507042?text=Hello" className="whatsapp"><i className="bx bxl-whatsapp"></i></a>
-                    <a target="_blank" rel="noreferrer" href="https://t.me/+254759507042" className="telegram"><i className="bx bxl-telegram"></i></a>
-                    <a target="_blank" rel="noreferrer" href="https://dev.to/abzed" className="dev"><i className="bx bxl-dev-to"></i></a>
-                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/abzed-mohammed-630bb181/" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+                    <a target="_blank" rel="noreferrer" href="https://twitter.com/DianahMongina?t=ibiY5QqKnvpanVvrjDvajw&s=09" className="twitter"><i className="bx bxl-twitter"></i></a>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/monginadiana" className="github"><i className="bx bxl-github"></i></a>
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/diana-mongina-74196a1a2//" className="linkedin"><i className="bx bxl-linkedin"></i></a>
                 </div>
             </div>
         </section>
+        </div>
         </>
     )
 }

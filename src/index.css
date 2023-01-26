@@ -1,13 +1,4 @@
-/**
-* Template Name: MyResume - v4.8.1
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Raleway", sans-serif;
   color: #000000;
@@ -74,10 +65,7 @@ p{
 .header-show {
   left: 0px !important;
 }
-.nav-logo{
-  font-size: 30px;
-  padding: 15px;
-}
+
 
 .navbar ul{
   display: flex;
@@ -86,18 +74,10 @@ p{
 }
 .navbar ul>li{
   list-style-type: none;
-  margin-right: 10px;
-}
-
-.nav-bar{
-  outline: none;
-  border: none;
-  background-color: transparent;
- 
+  margin-right: 30px;
 }
 
 .nav-menu {
-  padding: 0;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -114,22 +94,6 @@ p{
   white-space: nowrap;
 }
 
-.nav-menu a,
-.nav-menu a:focus {
-  display: flex;
-  align-items: center;
-  color: #000000;
-  padding: 10px 18px;
-  margin-bottom: 8px;
-  transition: 0.3s;
-  font-size: 17px;
-  border-radius: 50px;
-  background: #f2f3f5;
-  height: 56px;
-  width: 100%;
-  overflow: hidden;
-  transition: 0.3s;
-}
 
 .nav-menu a i,
 .nav-menu a:focus i {
@@ -146,7 +110,7 @@ p{
 .nav-menu .active span,
 .nav-menu .active:focus span,
 .nav-menu li:hover>a span {
-  color: #fff;
+  color: red;
 }
 
 .nav-menu a:hover,
@@ -207,34 +171,36 @@ p{
 /* Hero Page */
 
 .hello{
-  font-size: 35px !important;
+  font-size: 40px !important;
   font-weight: 400 !important;
+  padding-bottom: 20px;
 }
 
-#hero {
-  width: 100%;
-  height: 100vh;
-  background: url("./assets/film.jpg") top right no-repeat;
-  background-blend-mode: screen;
-  background-color: rgba(255, 255, 255, 0.6);
-  background-size: cover;
-  position: relative;
+.hero{
+  width:fit-content;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  border: 10px solid black;
+  margin-left: 13%;
+  padding: 100px;
+  border-radius: 20px;
+  
+  
+ 
+
 }
 
 @media screen and (max-width: 768px) {
   #hero {
-    background: url("./assets/film.jpg") center no-repeat;
-    background-size: cover;
-    background-blend-mode: screen;
+   
     background-color: rgba(255, 255, 255, 0.6);
   }
 }
 
-@media (min-width: 992px) {
-  #hero {
-    padding-left: 160px;
-  }
-}
+/* @media (min-width: 992px) {
+ 
+} */
 
 /* #hero:before {
   content: "";
@@ -248,16 +214,17 @@ p{
 
 #hero h1 {
   margin: 0;
-  font-size: 64px;
+  font-size: 90px;
   font-weight: 700;
   line-height: 56px;
   color: #000000;
+  letter-spacing: 5px;
 }
 
 #hero p {
   color: #000000;
   margin: 15px 0 0 0;
-  font-size: 26px;
+  font-size: 30px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -271,7 +238,7 @@ p{
 }
 
 #hero .social-links a {
-  font-size: 35px;
+  font-size: 50px;
   display: inline-block;
   color: #000000;
   line-height: 1;
@@ -384,6 +351,21 @@ h1.arrow {
 
 /* Contact Page */
 
+.message{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact-details{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+ 
+}
+.form-group input{
+  margin-bottom: 30px;
+}
 .contact-details h2 {
 	font-size:20px;
 }
@@ -398,6 +380,17 @@ h1.arrow {
 }
 .contact-wrap {
 	position:relative;
+}
+ .adress{
+  width: 500px;
+  height: 135px;
+  
+} 
+
+.email{
+  width: 600px;
+  align-items: flex-end;
+  
 }
 
 .dark-box {
