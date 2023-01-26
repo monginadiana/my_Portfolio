@@ -26,9 +26,9 @@ export default function About() {
                   changes. Confident communicator, strategic thinker, and
                   innovative creator.
                 </p>
-                <Link to="/resume" className="btn btn-outline-light mt-3">
+                <a href="https://drive.google.com/drive/u/0/folders/1KVmDgp983uO9qIT8SJdSLOGRX5q3p3sn" className="btn btn-outline-light mt-3" download="https://drive.google.com/drive/u/0/folders/1KVmDgp983uO9qIT8SJdSLOGRX5q3p3sn">
                   Resume
-                </Link>
+                </a>
               </div>
               <div className="col-1 col-md-offset-2 wp1"></div>
             </div>
