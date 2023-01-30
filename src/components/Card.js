@@ -1,5 +1,5 @@
 import LazyLoad from "react-lazy-load";
-import Footer from "./Footer";
+
 
 export default function Card(props){
 

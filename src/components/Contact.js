@@ -1,4 +1,4 @@
-import Footer from "./Footer";
+
 import LazyLoad from 'react-lazy-load';
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
@@ -57,14 +57,6 @@ export default function Contact(){
                 </div>
              </div>
              <div className="">
-                {/* <div className="col-lg-4 mt-5">
-                <LazyLoad height={300}>
-                <iframe title="Abzed's Location"
-                src="https://maps.google.com/maps?q=Nairobi+nairobit&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                className="h-100 w-100" style={{border:"0"}} allowFullScreen="" loading="lazy"></iframe>
-                </LazyLoad>
-                </div> */}
-
                     <div className="">
                     <h4 className="drop-line mb-2">Reach Out To <span>Me</span></h4>
 
