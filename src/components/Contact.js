@@ -112,7 +112,6 @@ export default function Contact(){
                 
             </center>
         </div>
-        <Footer />
         </>
     )
 }

@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Nav from './components/Nav';
 import { Route, Routes } from "react-router-dom"
@@ -28,6 +29,7 @@ function App() {
       <Route exact path='/contact' element={<Contact />} />
       <Route exact path='/web-applications' element={<Dev projects={projects} />} />
       </Routes>
+      <Footer />
      
     </div>
   );

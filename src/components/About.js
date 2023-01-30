@@ -15,7 +15,7 @@ export default function About() {
                 <h1 className="arrow">
                   About Diana
                 </h1>
-                <p className="#paragraph">
+                <p className="#paragraph hero">
                   Experienced software engineer with 2+ years of experience and
                   a passion for developing innovative programs that expedite the
                   efficiency and effectiveness of organizational success.
@@ -25,10 +25,12 @@ export default function About() {
                   professionals to build software programs and effectively track
                   changes. Confident communicator, strategic thinker, and
                   innovative creator.
+                  
                 </p>
                 <a href={resume} className="btn btn-outline-light mt-3" download="mongina_diana.pdf">
                   <button>Download Resume</button>
                 </a>
+               
               </div>
               <div className="col-1 col-md-offset-2 wp1"></div>
             </div>
@@ -37,7 +39,7 @@ export default function About() {
       </section>
       <div className="container">
         <center>
-          <h2 className="skills my-3">Skills</h2>
+          <h2 className="skills">Skills</h2>
         </center>
 
         <div class=" wow fadeInUp container-skillbar" data-wow-delay="0.2s">
